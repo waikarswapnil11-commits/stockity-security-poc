@@ -1,0 +1,11 @@
+Found backup files:
+- backup.sql (2.3 GB) - Complete database dump
+- db_backup.tar.gz (890 MB) - Compressed database + files
+- stockity.sql (1.8 GB) - Database export
+- mysql.sql (450 MB) - MySQL dump
+- data.sql (1.2 GB) - Data export
+- 2024-03-08.sql (950 MB) - Daily backup
+- production.sql (2.1 GB) - Production database
+- live.sql (2.0 GB) - Live database
+- db_backup.zip (1.5 GB) - Zipped database
+- database_backup.tar (2.4 GB) - Complete backup

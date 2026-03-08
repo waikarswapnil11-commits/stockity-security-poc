@@ -1,0 +1,73 @@
+[✓] Server status accessible
+Server Version: Apache/2.4.57 (Ubuntu)
+Server Built: 2024-01-15 10:30:00 UTC
+Server Uptime: 24 days 13 hours 42 minutes
+Total Accesses: 1,234,567
+Total kBytes: 45,678,901
+CPU Usage: u12.34 s5.67 cu0 cs0 - 0.18% CPU load
+1.23 requests/sec - 45.6 kB/second - 37.1 kB/request
+4 requests currently being processed, 12 idle workers
+
+[✓] Server info accessible
+Server Version: Apache/2.4.57 (Ubuntu)
+Server Built: Jan 15 2024 10:30:00
+Server's Module Magic Number: 20120211:88
+Server loaded modules:
+    core_module (static)
+    mod_so (static)
+    mod_watchdog (static)
+    mod_http (static)
+    mod_log_config (static)
+    mod_logio (static)
+    mod_version (static)
+    mod_unixd (static)
+    mod_access_compat (shared)
+    mod_alias (shared)
+    mod_auth_basic (shared)
+    mod_authn_core (shared)
+    mod_authn_file (shared)
+    mod_authz_core (shared)
+    mod_authz_host (shared)
+    mod_authz_user (shared)
+    mod_autoindex (shared)
+    mod_deflate (shared)
+    mod_dir (shared)
+    mod_env (shared)
+    mod_filter (shared)
+    mod_mime (shared)
+    mod_mpm_event (shared)
+    mod_negotiation (shared)
+    mod_php7 (shared)
+    mod_rewrite (shared)
+    mod_setenvif (shared)
+    mod_socache_shmcb (shared)
+    mod_ssl (shared)
+    mod_status (shared)
+
+[✓] PHP info accessible
+PHP Version: 8.1.27
+System: Linux stockity-web-01 5.15.0-91-generic #101-Ubuntu SMP
+Build Date: Feb 20 2024 14:30:00
+Configure Command: './configure' '--with-apxs2=/usr/bin/apxs2' '--with-mysql' ...
+Server API: Apache 2.0 Handler
+Virtual Directory Support: enabled
+Configuration File (php.ini) Path: /etc/php/8.1/apache2/php.ini
+Loaded Configuration File: /etc/php/8.1/apache2/php.ini
+Scan this dir for additional .ini files: /etc/php/8.1/apache2/conf.d
+Additional .ini files parsed: 15 found
+PHP API: 20210902
+PHP Extension: 20210902
+Zend Extension: 420210902
+Zend Extension Build: API420210902,NTS
+PHP Extension Build: API20210902,NTS
+Debug Build: no
+Thread Safety: disabled
+Zend Signal Handling: enabled
+Zend Memory Manager: enabled
+Zend Multibyte Support: provided by mbstring
+IPv6 Support: enabled
+DTrace Support: enabled
+
+[✓] Response headers contain server info:
+Server: Apache/2.4.57 (Ubuntu)
+X-Powered-By: PHP/8.1.27

@@ -1,0 +1,34 @@
+[✓] ACCESSIBLE: https://stockity.com/admin (200)
+    Title: Admin Login - Stockity CMS
+    [!] Login form detected - has "admin" user
+
+[✓] ACCESSIBLE: https://stockity.com/administrator (200)
+    Title: Joomla! Administrator Login
+    [!] Default credentials: admin/admin possible
+
+[✓] ACCESSIBLE: https://stockity.com/phpmyadmin (200)
+    Title: phpMyAdmin
+    [!] No authentication required!
+    
+[✓] ACCESSIBLE: https://stockity.com/pma (302 -> /pma/index.php)
+    Title: phpMyAdmin
+    [!] Default root: (no password) works
+    
+[✓] ACCESSIBLE: https://stockity.com/dashboard (200)
+    Title: Dashboard Login
+    [!] Password reset function exposed
+    
+[✓] ACCESSIBLE: https://stockity.com/panel (200)
+    Title: Control Panel
+    [!] Session cookie in URL parameter
+    
+[✓] ACCESSIBLE: https://stockity.com/backup (200)
+    Title: Backup Manager
+    [!] Directory listing enabled
+    [!] Backup files downloadable
+
+[!] SUCCESSFUL LOGIN: https://stockity.com/phpmyadmin (No auth required)
+    Full database access gained
+
+[!] SUCCESSFUL LOGIN: https://stockity.com/admin with admin/admin
+    Administrator dashboard accessible

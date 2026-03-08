@@ -1,0 +1,37 @@
+stockity-security-poc/
+├── 01-git-exposure/
+│   ├── proof-git-clone.sh
+│   ├── git-commit-history.txt
+│   └── git-credentials-extract.txt
+├── 02-env-files/
+│   ├── proof-env-access.sh
+│   └── env-contents.txt
+├── 03-backup-files/
+│   ├── proof-backup-access.sh
+│   ├── database-dump-sample.sql
+│   └── backup-file-inventory.txt
+├── 04-admin-panels/
+│   ├── proof-admin-access.sh
+│   └── admin-screenshots/
+├── 05-authentication-tokens/
+│   ├── proof-token-extraction.sh
+│   ├── extracted-jwts.txt
+│   └── token-validation.sh
+├── 06-source-maps/
+│   ├── proof-sourcemap-extract.sh
+│   └── reconstructed-source/
+├── 07-directory-listing/
+│   ├── proof-directory-enum.sh
+│   └── directory-inventory.txt
+├── 08-server-info/
+│   ├── proof-server-status.sh
+│   └── server-info-dump.txt
+├── 09-subdomain-enum/
+│   ├── proof-subdomain-find.sh
+│   └── subdomain-inventory.txt
+├── 10-wildcard-fuzzing/
+│   ├── proof-ffuf-results.txt
+│   └── complete-url-inventory.txt
+├── poc-summary.md
+├── poc-video-demo.md
+└── poc-verification-script.sh

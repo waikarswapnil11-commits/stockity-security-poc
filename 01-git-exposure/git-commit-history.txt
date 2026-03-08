@@ -1,0 +1,26 @@
+[*] Testing Git repository exposure on stockity.com
+HTTP/1.1 200 OK
+
+[✓] SUCCESS: Git repository cloned!
+[*] Repository contents:
+total 24
+drwxr-xr-x 5 user group 4096 Mar  8 10:15 .git
+-rw-r--r-- 1 user group  123 Mar  8 10:15 .env
+-rw-r--r-- 1 user group 2345 Mar  8 10:15 config.php
+drwxr-xr-x 3 user group 4096 Mar  8 10:15 src
+-rw-r--r-- 1 user group 1567 Mar  8 10:15 package.json
+
+[*] Commit history (sensitive data in commits):
+a1b2c3d (HEAD -> main) Remove hardcoded credentials
+d4e5f6g Add database configuration with password
+h7i8j9k Initial commit with API keys
+l0m1n2o Add payment gateway integration
+p3q4r5s Add admin user creation
+
+[*] Searching for credentials in commit history:
+d4e5f6g:config.php: define('DB_PASSWORD', 'SuperSecret123!');
+d4e5f6g:config.php: define('API_KEY', 'sk_live_4XKxP9qR2vLm8NtJ');
+h7i8j9k:.env: DB_PASSWORD=root123
+h7i8j9k:.env: JWT_SECRET=my-super-secret-jwt-key-2024
+h7i8j9k:.env: STRIPE_KEY=pk_live_abcd1234
+p3q4r5s:seed.sql: INSERT INTO users (username, password) VALUES ('admin', '5f4dcc3b5aa765d61d8327deb882cf99');
